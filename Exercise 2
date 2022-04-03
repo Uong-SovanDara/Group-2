@@ -1,3 +1,2 @@
 def index_power(array, N):
     return array[N] ** N if N < len(array) else -1
-print(index_power([1, 2, 3, 4], 2))
